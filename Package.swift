@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
   name: "Store",
-  platforms: [.iOS("11"), .macOS("11")],
+  platforms: [.iOS("10"), .macOS("11")],
   products: [
     // Products define the executables and libraries produced by a package, and make them visible to other packages.
     .library(
