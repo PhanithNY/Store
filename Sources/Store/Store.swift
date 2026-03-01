@@ -1,4 +1,4 @@
-import UIKit
+import Foundation
 
 @propertyWrapper
 public struct Store<Value: PropertyListValue> {
