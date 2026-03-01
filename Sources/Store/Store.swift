@@ -50,7 +50,7 @@ extension UInt32: PropertyListValue {}
 extension UInt64: PropertyListValue {}
 extension Double: PropertyListValue {}
 extension Float: PropertyListValue {}
-#if os(macOS)
+#if os(macOS) && arch(x86_64)
 extension Float80: PropertyListValue {}
 #endif
 extension Array: PropertyListValue where Element: PropertyListValue {}
